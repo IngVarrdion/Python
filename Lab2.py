@@ -59,3 +59,27 @@ try:
             print(line)
 except FileNotFoundError:
     print("Error")
+    
+#Zad. 6
+litera = input("Proszem wpisac litera\n")
+if litera.istitle() == 1:
+    print("Litera jest duza")
+else:
+    print("Litera jest mala")
+
+#Zad. 7
+Haslo=(input("Proszem wpisac Haslo\n"))
+if Haslo=="":
+    Haslo = "pk47!jy0893"
+if len(Haslo)==11 and Haslo[4]=="!":
+    print("Haslo jest poprawnie")
+else:
+    print("Haslo jest nie poprawnie")
+
+#Zad. 8
+text = 'Studiuje-Informatykę'
+print(text[:3:])
+print(text[-2::])
+
+#Zad. 9
+print(text.swapcase())
