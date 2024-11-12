@@ -47,8 +47,8 @@ def BMI(mass, height):
         print("Otyslosc II stopnia")
     elif bmi>=40:
         print("Otyslosc III stopnia")
-mass=int(input("Please, enter your mass:\n"))
-height=int(input("Please, enter your height:\n"))
+mass=int(input("Please, enter your mass(kg):\n"))
+height=int(input("Please, enter your height(metres):\n"))
 BMI(mass, height)
 #Zad. 6
 import math
