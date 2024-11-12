@@ -13,11 +13,11 @@ flip(a)
 #Zad. 3
 def Greeting(name,lang):
     if lang == "Polish":
-        print(f"Cześć, Anna")
+        print(f"Cześć, {name}")
     elif lang == "English":
-        print(f"Hello, John")
+        print(f"Hello, {name}")
     elif lang == "German":
-        print(f"Guten Morgen, Hans")
+        print(f"Guten Morgen, {name}")
     else:
         print(f"Witaj, {name}")
 
@@ -65,9 +65,9 @@ def tri(a, b, c):
         return f"Błąd: {ve}"
     except Exception as e:
         return f"Nieoczekiwany błąd: {e}"
-a = 3
-b = 4
-c = 5
+a = input("a:\n")
+b = input("b:\n")
+c = input("c:\n")
 pole = tri(a, b, c)
 print(f"Pole trójkąta o bokach {a}, {b}, {c} wynosi: {pole}")
 #Zad. 7
