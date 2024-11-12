@@ -106,7 +106,6 @@ def fibonacci(n):
         return fibonacci(n - 1) + fibonacci(n - 2)
 n = 10
 print(f"{n}-ty wyraz ciągu Fibonacciego to:", fibonacci(n))
-
 n = 5
 print(f"{n}-ty wyraz ciągu Fibonacciego to:", fibonacci(n))
 #Zad. 10
