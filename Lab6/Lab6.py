@@ -27,7 +27,7 @@ while czas>0:
 #Zad. 8
 print("Zadanie VIII")
 words=["for","print","break","bad"]
-for i in words:
+for i in range(0,len(words)):
     if keyword.iskeyword(words[i])==0:
         print(f"{words[i]} nie jest keywordem")
     else:
