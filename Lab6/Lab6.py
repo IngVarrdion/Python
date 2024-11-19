@@ -26,11 +26,12 @@ while czas>0:
         print("Czas minal!")
 #Zad. 8
 print("Zadanie VIII")
-print(keyword.iskeyword("for"))
-print(keyword.iskeyword("print"))
-print(keyword.iskeyword("break"))
-print(keyword.iskeyword("done"))
-print(keyword.iskeyword("bad"))
+words=["for","print","break","bad"]
+for i in words:
+    if keyword.iskeyword(words[i])==0:
+        print(f"{words[i]} nie jest keywordem")
+    else:
+        print(f"{words[i]} jest keywordem")
 #Zad. 9
 print("Zadanie IX")
 import math
